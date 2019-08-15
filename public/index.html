@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>The Weather Here</title>
+    <h1>The Weather Here</h1>
+    <div><a href="/">check in</a> | <a href="/logs">view checkins</a></div>
+    <p>
+      The weather here at <span id="latitude"></span>&deg;, <span id="longitude"></span>&deg; is <span id="summary"></span> with a temperature of <span id="temperature"></span>&deg;C. It feels like <span id="apparent_temp"></span>&deg;C outside.<br />
+      The concentration of particulate matter (<span id="aq_parameter"></span>) is <span id="aq_value"></span> <span id="aq_units"></span> last read on <span id="aq_date"></span>.</p>
+    
+    <script src="sketch.js"></script>
+  </body>
+</html>
